@@ -1,0 +1,15 @@
+{
+  "short_name": "Warung Ibu Titin",
+  "name": "Warung Ibu Titin",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x52",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "purple",
+  "background_color": "#purple"
+}

@@ -8,14 +8,14 @@
       "type": "image/png"
     },
     {
-      "src": "logoApps1-192.png",
+      "src": "logoApps-192.png",
       "type": "image/png",
-      "sizes": "192x90"
+      "sizes": "237x192"
     },
     {
-      "src": "logoApps1-512.png",
+      "src": "logoApps-512.png",
       "type": "image/png",
-      "sizes": "512x241"
+      "sizes": "632x521"
     }
   ],
   "start_url": ".",

@@ -21,5 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "purple",
-  "background_color": "#purple"
+  "background_color": "purple"
 }

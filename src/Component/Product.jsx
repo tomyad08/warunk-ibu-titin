@@ -64,14 +64,20 @@ const Produk = () => {
           <div className="col-md-3 col-4 mb-2 " key={value.id}>
             <Link to={value.tautan} style={{ textDecoration: "none" }}>
               <div
-                className="border border-2 rounded-3"
+                className="border border-0 rounded-2"
                 style={{
                   backgroundColor: "purple",
                   color: "white",
                 }}
+                id="produkCard"
               >
                 <div>
-                  <img src={value.foto} alt=" " width="100%" id="produkCard" />
+                  <img
+                    src={value.foto}
+                    alt=" "
+                    width="100%"
+                    className="border rounded-1 border-4"
+                  />
                 </div>
                 <h6 className="text-center pt-1" id="ukuranFont">
                   {value.nama}

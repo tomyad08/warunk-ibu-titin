@@ -76,7 +76,7 @@ const Produk = () => {
                     src={value.foto}
                     alt=" "
                     width="100%"
-                    className="border rounded-1 border-4"
+                    className="border rounded-1 border-2"
                   />
                 </div>
                 <h6 className="text-center pt-1" id="ukuranFont">

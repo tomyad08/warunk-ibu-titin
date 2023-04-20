@@ -4,18 +4,23 @@
   "icons": [
     {
       "src": "favicon.png",
-      "sizes": "64x52",
+      "sizes": "64x64",
       "type": "image/png"
+    },
+    {
+      "src": "logoApps-144.png",
+      "type": "image/png",
+      "sizes": "144x144"
     },
     {
       "src": "logoApps-192.png",
       "type": "image/png",
-      "sizes": "237x192"
+      "sizes": "192x192"
     },
     {
       "src": "logoApps-512.png",
       "type": "image/png",
-      "sizes": "632x521"
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",

@@ -79,7 +79,7 @@ const Produk = () => {
                     className="border rounded-1 border-2"
                   />
                 </div>
-                <h6 className="text-center pt-1" id="ukuranFont">
+                <h6 className="text-center py-1" id="ukuranFont">
                   {value.nama}
                 </h6>
               </div>

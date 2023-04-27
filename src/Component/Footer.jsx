@@ -27,18 +27,16 @@ const Kontak = () => {
 
           <div className="col-md my-1">
             <Link to="/">
-              <a href="#produk" style={{ textDecoration: "none" }}>
-                <button
-                  style={{
-                    fontFamily: "'Signika Negative', sans-serif",
-                    backgroundColor: "#FF78F0",
-                    color: "black",
-                  }}
-                  className="btn px-5 py-2 border border-0 rounded-2 fs-4"
-                >
-                  Explore
-                </button>
-              </a>
+              <button
+                style={{
+                  fontFamily: "'Signika Negative', sans-serif",
+                  backgroundColor: "#FF78F0",
+                  color: "black",
+                }}
+                className="btn px-5 py-2 border border-0 rounded-2 fs-4"
+              >
+                Explore
+              </button>
             </Link>
           </div>
 

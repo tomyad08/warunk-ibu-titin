@@ -3,7 +3,6 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { useDispatch } from "react-redux";
 import { addOrders } from "../Lib/ProductSlice";
-import Swal from "sweetalert2";
 import NumberWithCommas from "../utils/currency";
 import BottomPesanan from "./BottomPesanan";
 import { Link } from "react-router-dom";
@@ -38,12 +37,6 @@ const Fungsi = (props) => {
     };
     dispatch(addOrders(datas));
     setKondisi(true);
-    Swal.fire({
-      title: "Pesanan Tersimpan",
-      // text: "Untuk melihat pesanan kamu, silahkan klik logo keranjang yang ada di bagian pojok kanan atas ya.",
-      icon: "success",
-      confirmButtonText: "Mantap",
-    });
     setShow(false);
     setCount(0);
   };
@@ -129,7 +122,7 @@ const Fungsi = (props) => {
                 <div className="d-flex justify-content-center">
                   <button
                     className="btn btn-success border border-0 rounded-5 my-2 px-4"
-                    style={{ fontSize: "12px" }}
+                    style={{ fontSize: "13px" }}
                   >
                     + Keranjang
                   </button>

@@ -17,10 +17,10 @@ const BottomPesanan = () => {
         >
           <p
             className="text-center"
-            style={{ fontSize: "13px", color: "white" }}
+            style={{ fontSize: "16px", color: "white" }}
           >
             Yeay, pesanan kamu sudah masuk keranjang!
-            <img src="./assets/keranjang1.png" alt=" " width="30px" />
+            <img src="./assets/keranjang1.png" alt=" " width="40px" />
           </p>
         </div>
       </div>
